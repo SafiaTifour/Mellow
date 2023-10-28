@@ -1,0 +1,632 @@
+/* Reset styles */
+* {
+  padding: 0;
+  font-size: 10px;
+  font-family: "AR One Sans", sans-serif;
+}
+
+/* Hide horizontal overflow */
+html {
+  overflow-x: hidden;
+}
+
+/* Body styles */
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #EDDCD2;
+  /* Light beige background */
+  overflow-x: hidden;
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo styles */
+.logo {
+  padding-top: 3px;
+  transform: scale(4.2);
+  padding-left: 30px;
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  /* Circular shape */
+  z-index: 99999;
+}
+
+/* Navigation styles */
+.header nav {
+  max-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  margin-top: 0px;
+  top: 0;
+  z-index: 99999;
+  background-color: transparent;
+  width: 100%;
+}
+
+/* Navigation list styles */
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-left: 15%;
+  /* Left margin for the list items */
+  margin-top: 25px;
+}
+
+/* Navigation list item styles */
+.header nav li {
+  margin: 0 30px;
+  /* Horizontal margin for list items */
+  align-items: center;
+  text-decoration-style: none;
+}
+
+/* Navigation link styles */
+.header nav a {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+/* Hover styles for navigation links */
+.header nav a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.591);
+}
+
+/* Sign-in button styles */
+.header .signin-button button {
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 35px;
+  margin-top: 5px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color: white;
+  content: cover;
+  transition: background-color 0.5s;
+  margin-top: 25px;
+  border-color: white;
+}
+
+/* Hover styles for sign-in button */
+.header .signin-button button:hover {
+  background-color: #E8D1C5;
+  border: none;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Hidden sign-in button */
+.signin-button1 {
+  display: none;
+}
+
+/* Hidden menu icon */
+.menu-icon .icon {
+  display: none;
+}
+
+/* Main container styles */
+.main-container {
+  margin-top: 10rem;
+  /* Adds top margin of 10rem */
+}
+
+/* Share button styles */
+.share {
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+  margin-left: -0.8rem;
+  /* Adjusts left margin */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #863254;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Social media container styles */
+.social-media {
+  width: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  top: 20px;
+  left: 20px;
+  z-index: 98;
+  margin-top: 70rem;
+  /* Overrides previous margin-top property */
+  margin-left: 2rem;
+  position: absolute;
+}
+
+.social-media1 {
+  display: none;
+}
+
+/* Social icon styles */
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 40px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-icon i {
+  font-size: 16px;
+}
+
+.social-icon:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.social-icon:hover i {
+  color: #fff;
+}
+
+/* Reading time styles */
+.reading-time {
+  margin-top: -3.25rem;
+  display: flex;
+  align-items: center;
+  width: auto;
+  float: right;
+  margin-right: 2rem;
+  height: auto;
+}
+
+.reading-time p {
+  margin-left: 0.5rem;
+  color: rgb(64, 63, 63);
+}
+
+/* Material symbols outlined styles */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: rgb(139, 107, 48);
+}
+
+/* Container styles */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 0rem;
+  padding-top: 0;
+}
+
+/* Main image styles */
+.main-img {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: auto;
+  margin-top: -7rem;
+  padding-top: 0;
+  position: relative;
+  z-index: -1;
+}
+
+/* Main image styles */
+.main-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Article styles */
+article {
+  background-color: rgb(247, 242, 242);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  position: absolute;
+  margin-top: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(240, 239, 235);
+}
+
+/* Title styles */
+.title {
+  font-size: 30px;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  width: 80%;
+  color: rgb(70, 70, 70);
+}
+
+/* Author and date styles */
+.author-date {
+  margin-left: 3rem;
+  color: rgb(105, 105, 105);
+  line-height: 0.5rem;
+}
+
+.author {
+  font-size: 13px;
+}
+
+.date {
+  font-size: 10px;
+}
+
+/* Main content styles */
+main {
+  margin-right: 2rem;
+}
+
+main p {
+  font-size: 15px;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  text-indent: 2rem;
+}
+
+main h2 {
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+main blockquote {
+  padding-left: 0.6rem;
+  font-size: 20px;
+  border-left: 2px solid;
+  border-color: rgb(158, 158, 3);
+  width: 70%;
+  margin-left: 10%;
+  font-family: "Gabarito", sans-serif;
+}
+
+/* Tags styles */
+.tags {
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Feedback box styles */
+.feedback-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.feedback-box p {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Icons styles */
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-yes,
+.icon-no {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.icon-yes:hover,
+.icon-no:hover {
+  background-color: #d5d5d5;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+  color: #555;
+  font-size: 20px;
+}
+
+/* Share button styles */
+.share:hover {
+  background-color: #ff0044;
+  transform: scale(1.05);
+}
+
+
+
+/*media queries*/
+/*for the header-nav bar-*/
+@media (min-width: 900px) {
+  .header nav .submenu {
+    display: none !important;
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .header nav {
+    position: relative;
+  }
+
+  .helper {
+    width: 300px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: -100px;
+  }
+
+  .menu-icon .icon {
+    display: block;
+    fill: rgb(255, 255, 255);
+  }
+
+  .menu-icon .icon:hover {
+    transform: scale(1.05);
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .header .signin-button button {
+    margin-top: 19px;
+  }
+
+  .header nav .menu-icon {
+    display: block;
+    margin-left: -10px;
+    padding: 0;
+    color: #E8D1C5;
+  }
+
+  .header nav .submenu {
+    width: 100%;
+    height: 500px;
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    left: 0;
+    top: 0;
+    background-color: #D6D6D1;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    z-index: 999999;
+    margin-left: -20px;
+
+  }
+
+  #close-icon {
+    cursor: pointer;
+    float: right;
+  }
+
+  #close-icon:focus .submenu {
+    display: none;
+  }
+
+  .sub-ul {
+    margin-top: 90px;
+  }
+
+  .header nav .submenu li {
+    margin-top: 40px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .header nav .submenu a:hover {
+    font-size: 22px;
+    transition: color 0.3s ease;
+  }
+
+  .header nav .submenu a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.signin-button1 {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .header .signin-button {
+    display: none;
+  }
+
+  .header nav .submenu ul {
+    margin-top: 20px;
+  }
+
+  .header nav .submenu .signin-button1 {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .signin-button1 button {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 5px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    content: cover;
+    transition: background-color 0.5s;
+    margin-top: 25px;
+    border-color: rgb(0, 0, 0);
+  }
+
+  .header .signin-button1 button:hover {
+    background-color: rgba(0, 0, 0, 0.607);
+    border: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
+  .helper {
+    width: 150px;
+  }
+}
+
+/*for the other elements*/
+@media (min-width: 650px) {
+  p {
+    text-align: justify;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .social-media {
+    display: none;
+  }
+
+  .share {
+    width: 5rem;
+    font-size: 1rem;
+    color: #666;
+    padding-left: 0.4rem;
+  }
+
+  .social-media1 {
+    display: flex;
+    width: 40rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .reading-time {
+    margin-top: -1rem;
+    width: auto;
+    float: left;
+    margin-left: 2rem;
+  }
+
+  .material-symbols-outlined {
+    transform: scale(0.6);
+    margin-right: -0.8rem;
+  }
+
+  .article-info {
+    height: 5rem;
+    width: 100%;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+
+  article {
+    width: 90%;
+    margin-top: -5rem;
+    border-radius: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    transform: none;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 24px;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  main {
+    margin-top: 5rem;
+    margin-right: 0;
+  }
+
+  main p {
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+  }
+
+  main h2 {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  main blockquote {
+    padding-left: 0.3rem;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .main-img {
+    height: 600px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .social-media {
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    width: 25rem;
+    margin-top: 58rem;
+  }
+
+}
