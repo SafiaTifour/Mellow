@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta  name="viewport" content="width=device-width , initial-scale=1" />
+    <title>Mellow</title>
+    <link rel="stylesheet" href="style.css" >
+    <style>
+      /* Add your custom styles here */
+    </style>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const signinButton = document.getElementById('signin-btn');
+        const signinFormContainer = document.getElementById('signin-form-container');
+
+        signinButton.addEventListener('click', function() {
+          signinFormContainer.style.display = 'flex';
+        });
+
+        document.addEventListener('click', function(event) {
+          if (event.target === signinFormContainer) {
+            signinFormContainer.style.display = 'none';
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="whole">
+    <!----------------navigator---------------->
+    <header class="header">
+    <nav>
+      <img src="mellow.png" alt="LOGO">
+      <ul>
+        <li><a href="#" id="Home">Home</a></li>
+        <li><a href="#" id="Articles">Articles</a></li>
+        <li><a href="#" id="community">Community</a></li>
+        <li><a href="#" id="Therapists" >Therapists</a></li>
+      </ul>
+      
+      <div class="signin-button">
+        <button id="signin-btn">Sign In</button>
+      </div> 
+    
+
+<!--------------------------------the navbar when the screen gets smaller------------------------------------->
+
+<div class="menu-icon">
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="50"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+  </div>
+
+  <ul class="submenu">
+      <div id="close-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      </div>
+
+      <div class="sub-ul">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Articles</a></li>
+    <li><a href="#">Community</a></li>
+    <li><a href="#">Therapists</a></li>
+      </div>
+
+      <div class="signin-button1">
+        <a href="form2.html" target="_blank"><button>Sign&nbsp;In</button></a>
+      </div>
+  </ul>
+
+</nav>  
+
+  </header> 
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+    <div class="main">
+      <div class="description">
+        <div class="platform-description">
+          <h>Mellow<h>
+            <p>Together, We Navigate Life's Challenges, Providing a Safe Haven<br> for Growth and Empowerment.</p>
+        </div>
+
+        <div class="signup-button">
+          <a href="form1.html" target="_blank"> <button class="signup">Sign Up</button></a>
+        </div>
+      </div>
+
+      <div class="sections-description">
+        <div class="Articles">
+          <h3>Articles:</h3>
+          <p>Rich collection of articles</p>
+        </div>
+        <div class="community">
+          <h3>Community:</h3>
+          <p>Safe space for sharing</p>
+        </div>
+        <div class="Therapy">
+          <h3>Therapy:</h3>
+          <p>Affordable therapy sessions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------------------------------form------------------------------------------------------------->
+    <div id="signin-form-container" class="signin-form-container">
+      <div class="container">
+        <div class="box">
+          <h1>Mellow</h1>
+          <div class="user">
+            <label for="email"></label>
+             <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <label for="password"></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+
+         <div class="login-btn">
+          <button class="btn">Log in</button>
+          <p class="signup-suggestion">Don't have an account? <span>Sign up</span></p>
+         </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------about Us------------------------------------------------->
+     <div class="About-us">
+      <h1>About Us</h1>
+      <h2>Our values: </h2>
+      <div class="our-values">
+        
+  
+      <div class="Empathy values">
+        <img src="empathy.png" alt="empathy" id="empathy" class="values-img">
+        <h4>Empathy </h4>
+      </div>
+
+      <div class="Trust values">
+        <img src="trust.png " alt="trust" id="trust" class="values-img">
+        <h4>Trust </h4>
+      </div>
+
+      <div class="Confidentiality values">
+        <img src="confidentiality.png" alt="confidentiality" id="confidentiality" class="values-img">
+        <h4>Confidentiality </h4>
+      </div>
+
+      <div class="Personal-Growth values">
+        <img src="Personal-Growth.png" alt="Personal-Growth" id="Personal-Growth" class="values-img">
+        <h4>Personal Growth </h4>
+       </div>
+
+      <div class="Continuous-Improvement values">
+        
+        <img src="continuous-improvement.png" alt="continuous-improvement" id="continuous-improvement" class="values-img">
+        <h4>Continuous Improvement </h4>
+      </div>
+      </div>
+
+
+
+      <div class="work-witt-us">
+        <h2 class="joinUs">Join Our Team:</h2>
+        <p class="join">
+          Hey,<br>
+  
+          Are you a licensed therapist ready to make a meaningful impact in online therapy? </p>
+  
+  
+        
+        <div class="steps">
+          
+          <div class="requirements-div">
+           
+          <p class="title">Requirements:</p> 
+          <p class="Requirements step"> 
+                        -Master's degree in a relevant field.<br>
+                        -Familiarity with online therapy platforms,<br>
+                         video conferencing tools,
+                         and EHR systems.<br>
+                        -Dedication to client-centered treatment planning.</p>
+           
+          </div>
+          
+          <div class="Why-Join-Us-div">
+            <p class="title">Why Join Us:</p>
+            <p class="Why-Join-Us step">
+            -Flexible work environment.<br>
+            -Make a real difference.<br>
+            -Access to ongoing professional development.<br>
+            -Join a collaborative, growth-focused community.</p>
+          </div> 
+  
+          
+          <div class="How-to-Apply-div">
+            <p class="title">How to Apply:</p>
+            <p class="How-to-Apply step"></p>
+             Send your resume and cover letter to<br> the email below.<br>
+             We're excited to hear from you!<br>
+          
+              Warm regards,</p>
+            </div>
+  
+        </div>
+        </div>
+    </div>
+    <!--------------------------------Footer----------------------------------->
+    <footer class="footer">
+      <h3>Contact & Follow Us</h3>
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <img src="icons8-facebook-50.png">
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <img src="icons8-twitter-50.png">
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <img src="icons8-gmail-50.png">
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <img src="icons8-instagram-50.png">
+          </a>
+        </li>
+      </ul>
+      <p class="copy-right">© 2023 Mellow. All Rights Reserved.</p>
+    </footer>
+
+ <!---------------------------------------------javascript code----------------------------------------------------------------------->
+<script>
+ // Get the menu icon and submenu elements
+const menuIcon = document.querySelector('.menu-icon');
+const submenu = document.querySelector('.submenu');
+
+// Function to toggle the submenu on menu icon click
+function toggleSubmenu() {
+  submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+}
+
+// Add a click event listener to the menu icon
+menuIcon.addEventListener('click', toggleSubmenu);
+
+var closeIcon = document.getElementById("close-icon");
+var submenu2 = document.querySelector(".header nav .submenu");
+
+closeIcon.addEventListener("click", function() {
+  submenu2.style.display = "none";
+});
+</script>
+</body>
+</html>
