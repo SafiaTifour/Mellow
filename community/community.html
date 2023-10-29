@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>community PAGE</title>
+    <link rel="stylesheet" href="community.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Nunito:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="mellow.png" alt="LOGO">
+        <ul> 
+          <li><a href="../homepage/mellow.html" id="Home">Home</a></li> 
+          <li><a href="../articles/articles.html" id="Articles">Articles</a></li> 
+          <li><a href="../community/comunity.html" id="Community">Community</a></li> 
+          <li><a href="../therapists/therapist.html" id="Therapists">Therapists</a></li> 
+        </ul> 
+        <div class="helper">
+          <div class="signin-button"> 
+            <a href="../homepage/sign-in.html"> <button>Sign In</button></a>
+                    </div>
+          <div class="menu-icon">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="50"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </div>
+        </div>
+        <ul class="submenu">
+          <div id="close-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </div>
+          <div class="sub-ul">
+            <li><a href="../homepage/mellow.html">Home</a></li>
+            <li><a href="../articles/articles.html">Articles</a></li>
+            <li><a href="../community/comunity.html">Community</a></li>
+            <li><a href="../therapists/therapist.html">Therapists</a></li>
+          </div>
+          <div class="signin-button1">
+           <a href="../homepage/sign-in.html"> <button>Sign In</button></a>
+          </div>
+        </nav>
+
+                     
+    <div class="welcoming"> 
+      <h1 class="heading">Community</h1> 
+      <p>Safe space for sharing.If you need help or want to ask a question,our mellow community is always ready to respond and interract.</p>
+     </div> 
+
+
+    </header>
+
+    <script>
+      const menuIcon = document.querySelector('.menu-icon');
+      const submenu = document.querySelector('.submenu');
+
+      function toggleSubmenu() {
+        submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+      }
+
+      menuIcon.addEventListener('click', toggleSubmenu);
+    </script>
+  
+<!-- Header section ends -->
+   
+
+<!--community start-->
+
+
+
+                           
+    <div class="community">
+
+
+
+
+              <!--FEED-->
+    <div class="feed">
+         
+          <div class="CONTENT" id="blur">
+            <img src="feed.jfif" alt="image"/>
+
+            <h3>FEED</h3>
+            <p> A space for you and other members of our community to share and post.</p>
+          
+          </div>
+
+          <a href="#" onclick="toggle()">take a look</a>
+        </div>
+
+        <div class ="scroll"  id="popup">
+          <div  onclick="toggle()" class="close">+</div>
+          
+          <div class="p">
+           
+
+
+
+              <!--post starts-->
+              <div class="post">
+                <form>
+                  <div class="inputBOX">
+                    <div class="inputWrapper">
+                      <input type="text" placeholder="Post text..." />
+                     
+                      <button type="submit" class="sendButton">
+                        <span class="material-icons">send</span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+          <!--post ends-->
+                    
+
+
+
+  
+        </div>
+        <div class="squre-container">
+        <div class="p_body">
+         <div class="p_header">
+        <div class="p_header_text">
+            <h3>
+            Dr.Hanachi
+             <span class="p_header_special">
+                <span class="material-symbols-outlined post_badge"> verified </span>
+             </span>
+            </h3>
+           </div>
+          </div>
+           <div class="p_headerdescription">
+            <p>Greetings! just to inform all of you that therapy 
+              sessions are cancelled for this week due to personal 
+              commitments. Take in concederation that these sessions
+               are gonna be take in place later on. Thanks for
+                understanding :D </p>
+           </div>
+        
+         <img src="https://i.pinimg.com/474x/4b/32/92/4b3292c58422522a3fce1a1f19162161.jpg" alt=""/>
+         <div class="post_footer">
+           <span class="material-symbols-outlined">favorite_border</span>
+           <span class="material-symbols-outlined">comment</span>
+           <span class="material-symbols-outlined">share</span>
+          </div>
+        </div>
+      </div>
+    
+    
+      
+      
+      
+      
+    </div>
+
+
+
+    
+  
+         
+        
+  
+
+    
+               
+    
+    <!--end of feed-->
+                <!--thearists-->
+
+      <div class="therapists" id="blur">
+
+        <div class="CONTENT">
+          <img src="ther.jfif" alt="image"/>
+          <h3>THERAPISTS</h3>
+          <p> A space designed only for therapists to share and post .</p>
+          
+         
+        </div>
+
+        <a href="#" onclick="toggle()">take a look</a>
+
+       </div>
+
+       <div id="popup">
+        <div  onclick="toggle()" class="close">+</div>
+        <div class="p">
+    
+  
+        </div>
+        <div class="squre-container">
+        <div class="p_body">
+         <div class="p_header">
+        <div class="p_header_text">
+            <h3>
+             Dr.Hanachi.
+             <span class="p_header_special">
+                <span class="material-symbols-outlined post_badge"> verified </span>
+             </span>
+            </h3>
+           </div>
+           <div class="p_headerdescription">
+             <p>Greetings! just to inform all of you that therapy 
+              sessions are cancelled for this week due to personal 
+              commitments. Take in concederation that these sessions
+               are gonna be take in place later on. Thanks for
+                understanding :D </p>
+           </div>
+         </div>
+         <img src="https://i.pinimg.com/474x/4b/32/92/4b3292c58422522a3fce1a1f19162161.jpg" alt=""/>
+         <div class="post_footer">
+           <span class="material-symbols-outlined">favorite_border</span>
+           <span class="material-symbols-outlined">comment</span>
+           <span class="material-symbols-outlined">share</span>
+         </div>
+        </div>
+      </div>
+    </div>
+    
+      
+      
+      
+      
+    
+
+      
+      
+
+
+
+      
+ 
+  <!--end of therapists-->
+
+  </div>
+  
+
+<!--end of community-->
+<script src="script.js"></script>
+<script src="menu.js"></script>
+
+  </body>
+</html>
