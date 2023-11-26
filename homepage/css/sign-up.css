@@ -1,0 +1,274 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+ *{
+   font-family: 'Nunito', sans-serif ;
+   box-sizing: content-box ;
+ }
+
+body {
+   margin: 0 ;
+   padding: 0 ;
+   box-sizing: border-box ;
+   font-family:  sans-serif ;
+   color: #000000 ;
+   background-color: #f6f2ee ;
+ }
+  
+ h1 {
+   font-weight: 900 ;
+   margin: 0 0 0.7rem 0 ;
+ }
+ 
+ .container {
+   height: 100vh ;
+   display: flex ;
+   justify-content: center ;
+   align-items: center ;
+   font-size: 16px ;
+   flex-direction: column ;
+ }
+ .box {
+   width: 350px ;
+   height: 470px ; 
+   font-size: 16px ;
+   padding: 2rem 2rem ;
+   background: #fffffd ;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+   border-radius: 30px ;
+   position: relative;
+ }
+ .user {
+   margin-top: 0.8rem ;
+ }
+ 
+ .fas {
+   position: absolute ;
+ }
+ input {
+   width: 90% ;
+   margin-bottom: 25px ;
+   padding: 0px 30px 15px ;
+   font-size: 16px ;
+   border: none ;
+   border-bottom: 1px solid #EEDDD3 ;
+   outline: none ;
+   background: #fffffd ;
+   color: gray ;
+ }
+ input:focus {
+   border-bottom: 1px solid #EEDDD3 ;
+ }
+ .reset-password {
+   color: #ff7f50 ;
+   text-align: right ;
+   margin-top: 0px ;
+   font-size: 12px ;
+ }
+ .login-btn {
+   margin-top: 25px ;
+   display: flex ;
+   justify-content: center ;
+   align-items: center ;
+   flex-direction: column ;
+ }
+ 
+ .btn {
+   display: block ;
+   width: 80% ;
+   padding: 15px ;
+   background-color: #EDDCD2 ;
+   color: #000000 ;
+   border: none ;
+   border-radius: 20px ;
+   font-size: 20px ;
+   font-weight: 600 ;
+   opacity: 0.8 ;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+ }
+ .btn:hover{
+     opacity: 1 ;
+ }
+ 
+ .signup span{
+     color: #E8D1C5 ;
+ }
+ .signup span:hover{
+     color: #EDDCD2 ;
+ }
+ 
+ 
+ 
+ form .password p{
+     font-size: 0.8rem ;
+     font-weight: 100 ;
+     color: rgb(111, 115, 119) ;
+     margin-left: 0.5rem ;
+     margin-top: 0;
+ }
+ 
+ form #password
+ {
+  margin-bottom: 0 ;
+ }
+ 
+ 
+ form .error{
+   color: white ;
+   text-align: center ;
+   background-color: rgb(255, 0, 0) ;
+   font-size: 0.8rem ;
+   height: 1rem ;
+   display: none ; 
+   margin-bottom: 0.2rem ; 
+   width: 23.5rem;
+ }
+ 
+
+ .arrow{
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  left: -3rem;
+  bottom: 17rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+  color: #000000;
+  background-color: #EEDDD3;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  flex-direction: column;
+}
+.box {
+  width: 350px;
+  height: 460px;
+  font-size: 16px;
+  padding: 40px 40px;
+  background: #EDEDE8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+}
+.user {
+  margin-top: 50px;
+}
+
+.fas {
+  position: absolute;
+}
+input {
+  width: 90%;
+  margin-bottom: 25px;
+  padding: 0px 30px 15px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #EEDDD3;
+  outline: none;
+  background-color: #EDEDE8;
+  color: gray;
+}
+input:focus {
+  border-bottom: 1px solid #EEDDD3;
+}
+.reset-password {
+  color: #ff7f50;
+  text-align: right;
+  margin-top: 0px;
+  font-size: 12px;
+}
+.login-btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  display: block;
+  width: 80%;
+  padding: 15px;
+  background-color: #EDDCD2;
+  color: #000000;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn:hover{
+    opacity: 1;
+}
+
+.signup span{
+    color: #E8D1C5;
+}
+.signup span:hover{
+    color: #EDDCD2;
+} */
